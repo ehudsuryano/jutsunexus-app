@@ -42,7 +42,7 @@
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg>
     Download for Android
   </a>
-  <div class="meta"><span>Version 1.2.2</span><span>88MB</span><span>Android 7 and later</span></div>
+  <div class="meta"><span>Version 1.3.0</span><span>119MB</span><span>Android 10 and later</span></div>
   <div class="android-only">Android only – there is no iPhone version yet</div>
 </div>
 
@@ -290,6 +290,7 @@
           <span class="tag">Sharing</span>
           <h3>Share techniques and whole folders</h3>
           <ul>
+            <li><b>Send by link</b>: send a short link on WhatsApp instead of a big file, and it downloads straight from your phone – <a href="#send">how it works</a></li>
             <li><b>Export and import</b> a technique, a folder or the whole library as one file – as a backup or to send to a friend</li>
             <li><b>Open a link</b>: paste a Google Drive or Dropbox link to a shared file and the app downloads and imports it</li>
             <li><b>Technique QR code</b>: scan it with a camera to see the technique even without the app</li>
@@ -308,10 +309,74 @@
     </div>
 
     <div class="mini-grid">
-      <div class="mini"><h3>Works offline</h3><p>Everything is stored on the phone. You only need the internet to open a link or update a syllabus.</p></div>
+      <div class="mini"><h3>Works offline</h3><p>Everything is stored on the phone. You only need the internet to send or open a link, or to update a syllabus.</p></div>
       <div class="mini"><h3>No account</h3><p>No sign-up, no server, and nobody else sees your library.</p></div>
       <div class="mini"><h3>Share from YouTube</h3><p>Pick JutsuNexus from YouTube's Share button and the video is saved to a technique as a link.</p></div>
       <div class="mini"><h3>Saves space</h3><p>In Profile you choose the video and photo quality and see how much space the library uses.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SEND BY LINK ============ -->
+<section id="send">
+  <div class="wrap">
+    <h2>Sending techniques by link</h2>
+    <p class="section-lead">Instead of a big file, send a short link on WhatsApp. The technique, with its videos, goes straight from your phone to theirs, and nothing is uploaded anywhere.</p>
+    <ol class="steps">
+      <li class="step">
+        <div class="txt">
+          <h3>Pick what to send</h3>
+          <p>In the <b>Library</b>, tap <b>⋮</b> on a technique or folder, then <b>Send by link</b>.</p>
+          <p>To send everything: <span class="path">Nexus <i>→</i> Send my whole library by link</span></p>
+        </div>
+        <div><div class="shot"><img src="../img/send/01-menu.webp" alt="The menu with Send by link" loading="lazy"></div></div>
+      </li>
+      <li class="step">
+        <div class="txt">
+          <h3>Share the link</h3>
+          <p>Tap <b>Share link</b> and pick WhatsApp, or any other app.</p>
+          <p>In the same room, the other person can scan the QR code with their camera instead.</p>
+        </div>
+        <div><div class="shot"><img src="../img/send/02-send.webp" alt="The Send by link screen with its link and QR code" loading="lazy"></div></div>
+      </li>
+      <li class="step no-shot">
+        <div class="txt">
+          <h3>Keep the send running</h3>
+          <p>You can switch apps or lock the screen, and a <b>Sending</b> notification stays up. Your phone has to stay online until they finish downloading.</p>
+          <p>One link works for several people, so an instructor can send it to a whole class. When everyone has it, tap <b>Stop sending</b>.</p>
+        </div>
+      </li>
+      <li class="step">
+        <div class="txt">
+          <h3>On the other phone: open the link</h3>
+          <p>They tap the link and then <b>Open in JutsuNexus</b>.</p>
+        </div>
+        <div><div class="shot"><img src="../img/send/03-page.webp" alt="The page that opens from the link" loading="lazy"></div></div>
+      </li>
+      <li class="step">
+        <div class="txt">
+          <h3>Download and add it</h3>
+          <p>They see the name and size and tap <b>Download</b>. If the connection drops, it picks up where it stopped.</p>
+        </div>
+        <div><div class="shot"><img src="../img/send/04-offer.webp" alt="The download offer with the name and size" loading="lazy"></div></div>
+      </li>
+      <li class="step">
+        <div class="txt">
+          <h3>Import</h3>
+          <p>When the download finishes, they see what's in it and tap <b>Import</b>. It's added to their library, and nothing gets overwritten.</p>
+        </div>
+        <div><div class="shot"><img src="../img/send/05-import.webp" alt="The import preview" loading="lazy"></div></div>
+      </li>
+    </ol>
+    <div class="callout">
+      <p><strong>Good to know</strong></p>
+      <ul>
+        <li><b>The link stops working when you stop sending.</b> If someone opens it later, it won't connect. Send it again and share the new link.</li>
+        <li><b>Both phones need JutsuNexus 1.3 or later.</b></li>
+        <li><b>Anyone with the link can download it</b> while the send is running, so only send it to people it's meant for.</li>
+        <li><b>Data and space.</b> Without Wi-Fi it uses mobile data on both phones. While it runs, your phone needs free space of about twice the size being sent, and theirs about three times.</li>
+        <li><b>If it keeps saying "Still looking".</b> Check the send is still running, then try switching one phone between Wi-Fi and mobile data. Some network combinations may not connect. If so, use <b>⋮ → Share</b> to send the file itself.</li>
+      </ul>
     </div>
   </div>
 </section>
@@ -368,7 +433,7 @@
     <h2>FAQ</h2>
     <details>
       <summary>Is it safe? Why does my phone warn me?</summary>
-      <p>The warnings appear for every app installed from outside the Google Play Store, not just this one. The app needs no account, collects nothing and never sends your library anywhere. It only uses the internet when you open a link.</p>
+      <p>The warnings appear for every app installed from outside the Google Play Store, not just this one. The app needs no account, collects nothing and only sends what you choose to send. It only uses the internet when you send or open a link.</p>
     </details>
     <details>
       <summary>Is there an iPhone version?</summary>
@@ -380,6 +445,10 @@
       <p>Other causes: not enough free space (you need at least 250MB: the downloaded file plus the app), or an incomplete download – try downloading again.</p>
     </details>
     <details>
+      <summary>My phone is older than Android 10</summary>
+      <p>Version 1.3 needs Android 10 or later and a 64-bit phone. On an older phone, install <a href="https://github.com/ehudsuryano/jutsunexus-app/releases/download/v1.2.2/JutsuNexus.apk">version 1.2.2</a> instead. It has everything except Send by link.</p>
+    </details>
+    <details>
       <summary>I tapped the file and nothing happened</summary>
       <p>On Samsung, turn off <a href="#install" data-tab="t-samsung">Auto Blocker</a>. On any other phone, open the file from the Files app, in <b>Downloads</b>.</p>
     </details>
@@ -389,7 +458,7 @@
     </details>
     <details>
       <summary>How much space does it take?</summary>
-      <p>The app itself takes about 120MB once installed. The library grows with your videos, and video compression (in Profile) shrinks them considerably.</p>
+      <p>The app itself takes about 125MB once installed. The library grows with your videos, and video compression (in Profile) shrinks them considerably.</p>
     </details>
   </div>
 </section>
@@ -397,7 +466,7 @@
 </main>
 
 <footer>
-  <div class="wrap">JutsuNexus · Version 1.2.2 · <a href="../" hreflang="he" lang="he">עברית</a></div>
+  <div class="wrap">JutsuNexus · Version 1.3.0 · <a href="../" hreflang="he" lang="he">עברית</a></div>
 </footer>
 
 <div class="lightbox" id="lightbox" aria-hidden="true"><img alt=""></div>
