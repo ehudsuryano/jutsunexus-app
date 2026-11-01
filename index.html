@@ -42,7 +42,7 @@
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg>
     הורדה לאנדרואיד
   </a>
-  <div class="meta"><span>גרסה 1.3.0</span><span>119MB</span><span>אנדרואיד 10 ומעלה</span></div>
+  <div class="meta"><span>גרסה 1.4.0</span><span>120MB</span><span>אנדרואיד 10 ומעלה</span></div>
   <div class="android-only">לאנדרואיד בלבד – אין כרגע גרסה לאייפון</div>
 </div>
 
@@ -291,6 +291,7 @@
           <h3>שיתוף טכניקות ותוכניות לימוד</h3>
           <ul>
             <li><b>שליחה בקישור</b>: שולחים קישור קצר בוואטסאפ במקום קובץ גדול, וההורדה מגיעה ישירות מהטלפון שלכם – <a href="#send">איך זה עובד</a></li>
+            <li><b>שליחה בקישור Drive</b>: מעלים ל-Google Drive שלכם ושולחים קישור שעובד גם כשהטלפון כבוי – <a href="#drive">איך זה עובד</a></li>
             <li><b>ייצוא וייבוא</b> של טכניקה, תיקייה או כל הספרייה כקובץ אחד – לגיבוי או לשליחה לחבר</li>
             <li><b>פתיחה מקישור</b>: מדביקים קישור של Google Drive או Dropbox לקובץ ששותף, והאפליקציה מורידה ומייבאת אותו</li>
             <li><b>קוד QR לטכניקה</b>: סורקים במצלמה ורואים את הטכניקה גם בלי האפליקציה</li>
@@ -303,7 +304,7 @@
         <div>
           <span class="tag">למדריכים</span>
           <h3>תוכנית לימוד שהתלמידים מקבלים ומעדכנים</h3>
-          <p>מדריך מייצא את תוכנית הלימוד, שם אותה ב-Google Drive ושולח קישור. התלמידים נרשמים לתוכנית מהקישור ומקבלים אותה לקריאה בלבד. כשהמדריך מעדכן את הקובץ, התלמידים לוחצים <b>Check for updates</b> ומקבלים את הגרסה החדשה.</p>
+          <p>מדריך שולח את תוכנית הלימוד ב<a href="#drive">שליחה בקישור Drive</a>. התלמידים נרשמים לתוכנית מהקישור ומקבלים אותה לקריאה בלבד. כשהמדריך מעלה שינויים הקישור נשאר אותו קישור, והתלמידים לוחצים <b>Check for updates</b> ומקבלים את הגרסה החדשה.</p>
         </div>
       </article>
     </div>
@@ -375,7 +376,72 @@
         <li><b>בשני הטלפונים צריך JutsuNexus בגרסה 1.3 ומעלה.</b></li>
         <li><b>כל מי שיש לו את הקישור יכול להוריד</b> כל עוד השליחה פועלת, אז שלחו אותו רק למי שהוא מיועד לו.</li>
         <li><b>נתונים ומקום.</b> בלי Wi-Fi השליחה משתמשת בחבילת הגלישה בשני הטלפונים. בזמן השליחה צריך בטלפון שלכם מקום פנוי של בערך פי שניים מהגודל שנשלח, ובטלפון השני בערך פי שלושה.</li>
-        <li><b>אם כתוב כל הזמן "Still looking".</b> ודאו שהשליחה עדיין פועלת, ונסו להעביר טלפון אחד בין Wi-Fi לחבילת גלישה. יש צירופי רשתות שאולי לא יתחברו. במקרה כזה שלחו את הקובץ עצמו דרך <b>⋮ ← Share</b>.</li>
+        <li><b>אם כתוב כל הזמן "Still looking".</b> ודאו שהשליחה עדיין פועלת, ונסו להעביר טלפון אחד בין Wi-Fi לחבילת גלישה. יש צירופי רשתות שאולי לא יתחברו. במקרה כזה השתמשו ב<a href="#drive">שליחה בקישור Drive</a> או ב-<b>⋮ ← Share</b>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SEND BY DRIVE LINK ============ -->
+<section id="drive">
+  <div class="wrap">
+    <h2>שליחת טכניקות בקישור Drive</h2>
+    <p class="section-lead">האפליקציה מעלה עותק ל-Google Drive שלכם ונותנת לכם קישור. בניגוד לשליחה בקישור, הוא ממשיך לעבוד גם כשהטלפון כבוי, כך שאפשר לפתוח אותו מתי שרוצים. מדריכים יכולים גם לעדכן את התוכן בלי לשנות את הקישור.</p>
+    <ol class="steps">
+      <li class="step">
+        <div class="txt">
+          <h3>בוחרים מה לשלוח</h3>
+          <p>ב-<b>Library</b> לוחצים על <b>⋮</b> ליד טכניקה או תיקייה, ואז <b>Send by Drive link</b>.</p>
+          <p>כדי לשלוח הכול: <span class="path">Nexus <i>←</i> Put my whole library on Drive</span></p>
+        </div>
+        <div><div class="shot"><img src="img/drive/01-menu.webp" alt="התפריט עם האפשרות Send by Drive link" loading="lazy"></div></div>
+      </li>
+      <li class="step">
+        <div class="txt">
+          <h3>מעלים</h3>
+          <p>לוחצים <b>Upload and get link</b>. בפעם הראשונה נכנסים עם חשבון Google ומאשרים גישה. <b>אם Google מציג תיבת סימון עבור Drive, סמנו אותה</b>, אחרת ההעלאה לא תתחיל.</p>
+          <p>האפליקציה רואה רק קבצים שהיא עצמה יצרה ב-Drive, לא את השאר. השאירו את המסך פתוח עד שההעלאה מסתיימת.</p>
+        </div>
+        <div><div class="shot"><img src="img/drive/02-upload.webp" alt="מסך השליחה לפני ההעלאה" loading="lazy"></div></div>
+      </li>
+      <li class="step">
+        <div class="txt">
+          <h3>משתפים את הקישור</h3>
+          <p>לוחצים <b>Share link</b> ובוחרים וואטסאפ או כל אפליקציה אחרת. באותו חדר אפשר גם לסרוק את קוד ה-QR במצלמה של הטלפון השני. מכאן הטלפון שלכם לא צריך להיות דלוק.</p>
+        </div>
+        <div><div class="shot"><img src="img/drive/03-link.webp" alt="הקישור, קוד ה-QR וכפתורי העדכון" loading="lazy"></div></div>
+      </li>
+      <li class="step">
+        <div class="txt">
+          <h3>בטלפון השני: פותחים את הקישור</h3>
+          <p>לוחצים על הקישור ואז על <b>Open in JutsuNexus</b>. כדי לקבל לא צריך חשבון Google.</p>
+        </div>
+        <div><div class="shot"><img src="img/drive/04-page.webp" alt="הדף שנפתח מהקישור" loading="lazy"></div></div>
+      </li>
+      <li class="step">
+        <div class="txt">
+          <h3>מייבאים או נרשמים</h3>
+          <p><b>Import once</b> מוסיף עותק לספרייה, אחרי שמראה מה יש בחבילה. <b>Subscribe</b> מוסיף אותה לקריאה בלבד, ו-<b>Check for updates</b> בלשונית Nexus מביא את השינויים שלכם.</p>
+        </div>
+        <div><div class="shot"><img src="img/drive/05-open.webp" alt="הכפתורים Import once ו-Subscribe" loading="lazy"></div></div>
+      </li>
+      <li class="step no-shot">
+        <div class="txt">
+          <h3>מעדכנים או עוצרים</h3>
+          <p>שיניתם משהו? פתחו שוב את <b>Send by Drive link</b> ולחצו <b>Upload latest changes</b>. הקישור נשאר אותו קישור.</p>
+          <p><b>Stop sharing</b> מוחק את הקובץ מה-Drive ומבטל את הקישור לכולם. מה שבספרייה שלכם נשאר. ההעלאות שלכם מופיעות גם בלשונית <b>Nexus</b>.</p>
+        </div>
+      </li>
+    </ol>
+    <div class="callout">
+      <p><strong>חשוב לדעת</strong></p>
+      <ul>
+        <li><b>במה לבחור.</b> בשליחה בקישור שום דבר לא מועלה, אבל הטלפון שלכם צריך להישאר מחובר עד שההורדה מסתיימת. בקישור Drive צריך קודם להעלות וזה תופס מקום ב-Drive, אבל הוא עובד בכל זמן.</li>
+        <li><b>בשני הטלפונים צריך JutsuNexus בגרסה 1.4 ומעלה.</b></li>
+        <li><b>כל מי שיש לו את הקישור יכול להוריד</b> עד שתעצרו את השיתוף, אז שלחו אותו רק למי שהוא מיועד לו.</li>
+        <li><b>מקום.</b> הקובץ תופס מקום ב-Drive שלכם, שבו Google נותן 15GB בחינם. בזמן הכנת ההעלאה צריך גם בטלפון מקום פנוי של בערך פי שניים מהגודל שנשלח.</li>
+        <li><b>קבצים עמוסים.</b> Google עלול להגביל זמנית הורדות של קובץ שאנשים רבים מורידים בבת אחת.</li>
+        <li><a href="privacy.html">מדיניות פרטיות</a></li>
       </ul>
     </div>
   </div>
@@ -466,7 +532,7 @@
 </main>
 
 <footer>
-  <div class="wrap">JutsuNexus · גרסה 1.3.0 · <a href="en/" hreflang="en" lang="en">English</a></div>
+  <div class="wrap">JutsuNexus · גרסה 1.4.0 · <a href="privacy.html">פרטיות</a> · <a href="en/" hreflang="en" lang="en">English</a></div>
 </footer>
 
 <div class="lightbox" id="lightbox" aria-hidden="true"><img alt=""></div>

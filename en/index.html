@@ -42,7 +42,7 @@
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg>
     Download for Android
   </a>
-  <div class="meta"><span>Version 1.3.0</span><span>119MB</span><span>Android 10 and later</span></div>
+  <div class="meta"><span>Version 1.4.0</span><span>120MB</span><span>Android 10 and later</span></div>
   <div class="android-only">Android only – there is no iPhone version yet</div>
 </div>
 
@@ -291,6 +291,7 @@
           <h3>Share techniques and whole folders</h3>
           <ul>
             <li><b>Send by link</b>: send a short link on WhatsApp instead of a big file, and it downloads straight from your phone – <a href="#send">how it works</a></li>
+            <li><b>Send by Drive link</b>: upload to your own Google Drive and send a link that works even with your phone off – <a href="#drive">how it works</a></li>
             <li><b>Export and import</b> a technique, a folder or the whole library as one file – as a backup or to send to a friend</li>
             <li><b>Open a link</b>: paste a Google Drive or Dropbox link to a shared file and the app downloads and imports it</li>
             <li><b>Technique QR code</b>: scan it with a camera to see the technique even without the app</li>
@@ -303,7 +304,7 @@
         <div>
           <span class="tag">For instructors</span>
           <h3>A syllabus your students follow and update</h3>
-          <p>An instructor exports the syllabus, puts it on Google Drive and sends the link. Students subscribe from the link and get it read-only. When the instructor replaces the file, students tap <b>Check for updates</b> and get the new version.</p>
+          <p>An instructor sends the syllabus with <a href="#drive">Send by Drive link</a>. Students subscribe from the link and get it read-only. When the instructor uploads changes the link stays the same, and students tap <b>Check for updates</b> to get the new version.</p>
         </div>
       </article>
     </div>
@@ -375,7 +376,72 @@
         <li><b>Both phones need JutsuNexus 1.3 or later.</b></li>
         <li><b>Anyone with the link can download it</b> while the send is running, so only send it to people it's meant for.</li>
         <li><b>Data and space.</b> Without Wi-Fi it uses mobile data on both phones. While it runs, your phone needs free space of about twice the size being sent, and theirs about three times.</li>
-        <li><b>If it keeps saying "Still looking".</b> Check the send is still running, then try switching one phone between Wi-Fi and mobile data. Some network combinations may not connect. If so, use <b>⋮ → Share</b> to send the file itself.</li>
+        <li><b>If it keeps saying "Still looking".</b> Check the send is still running, then try switching one phone between Wi-Fi and mobile data. Some network combinations may not connect. If so, use <a href="#drive">Send by Drive link</a> or <b>⋮ → Share</b> instead.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SEND BY DRIVE LINK ============ -->
+<section id="drive">
+  <div class="wrap">
+    <h2>Sending techniques by Drive link</h2>
+    <p class="section-lead">The app uploads a copy to your own Google Drive and gives you a link. Unlike Send by link, it keeps working when your phone is off, so people can open it whenever they see it. Instructors can also update it without changing the link.</p>
+    <ol class="steps">
+      <li class="step">
+        <div class="txt">
+          <h3>Pick what to send</h3>
+          <p>In the <b>Library</b>, tap <b>⋮</b> on a technique or folder, then <b>Send by Drive link</b>.</p>
+          <p>To send everything: <span class="path">Nexus <i>→</i> Put my whole library on Drive</span>.</p>
+        </div>
+        <div><div class="shot"><img src="../img/drive/01-menu.webp" alt="The menu with Send by Drive link" loading="lazy"></div></div>
+      </li>
+      <li class="step">
+        <div class="txt">
+          <h3>Upload</h3>
+          <p>Tap <b>Upload and get link</b>. The first time, sign in with your Google account and allow access. <b>If Google shows a tick box for Drive, tick it</b>, or the upload can't start.</p>
+          <p>The app can only see files it creates in your Drive, not the rest of it. Keep the screen open until the upload finishes.</p>
+        </div>
+        <div><div class="shot"><img src="../img/drive/02-upload.webp" alt="The Send by Drive link screen before uploading" loading="lazy"></div></div>
+      </li>
+      <li class="step">
+        <div class="txt">
+          <h3>Share the link</h3>
+          <p>Tap <b>Share link</b> and pick WhatsApp, or any other app. In the same room, the other person can scan the QR code with their camera instead. After that, your phone doesn't need to be on.</p>
+        </div>
+        <div><div class="shot"><img src="../img/drive/03-link.webp" alt="The link, QR code and update buttons" loading="lazy"></div></div>
+      </li>
+      <li class="step">
+        <div class="txt">
+          <h3>On the other phone: open the link</h3>
+          <p>They tap the link and then <b>Open in JutsuNexus</b>. No Google account is needed to receive.</p>
+        </div>
+        <div><div class="shot"><img src="../img/drive/04-page.webp" alt="The page that opens from the link" loading="lazy"></div></div>
+      </li>
+      <li class="step">
+        <div class="txt">
+          <h3>Import or subscribe</h3>
+          <p><b>Import once</b> adds a copy to their library, after showing what's in it. <b>Subscribe</b> adds it read-only, and <b>Check for updates</b> in the Nexus tab gets your changes.</p>
+        </div>
+        <div><div class="shot"><img src="../img/drive/05-open.webp" alt="Import once and Subscribe" loading="lazy"></div></div>
+      </li>
+      <li class="step no-shot">
+        <div class="txt">
+          <h3>Update or stop</h3>
+          <p>Changed something? Open <b>Send by Drive link</b> on it again and tap <b>Upload latest changes</b>. The link stays the same.</p>
+          <p><b>Stop sharing</b> deletes the file from your Drive and ends the link for everyone. What's in your library stays. Your uploads are also listed in the <b>Nexus</b> tab.</p>
+        </div>
+      </li>
+    </ol>
+    <div class="callout">
+      <p><strong>Good to know</strong></p>
+      <ul>
+        <li><b>Which one to use.</b> Send by link uploads nothing, but your phone has to stay online until they finish. Send by Drive link takes an upload first and uses your Drive space, but works at any time.</li>
+        <li><b>Both phones need JutsuNexus 1.4 or later.</b></li>
+        <li><b>Anyone with the link can download it</b> until you stop sharing, so only send it to people it's meant for.</li>
+        <li><b>Space.</b> It uses your own Drive storage, which is 15GB free from Google. While it prepares the upload, your phone also needs free space of about twice the size being sent.</li>
+        <li><b>Busy files.</b> Google can temporarily limit downloads of a file that many people download at once.</li>
+        <li><a href="../privacy.html">Privacy policy</a></li>
       </ul>
     </div>
   </div>
@@ -466,7 +532,7 @@
 </main>
 
 <footer>
-  <div class="wrap">JutsuNexus · Version 1.3.0 · <a href="../" hreflang="he" lang="he">עברית</a></div>
+  <div class="wrap">JutsuNexus · Version 1.4.0 · <a href="../privacy.html">Privacy</a> · <a href="../" hreflang="he" lang="he">עברית</a></div>
 </footer>
 
 <div class="lightbox" id="lightbox" aria-hidden="true"><img alt=""></div>
