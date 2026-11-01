@@ -67,7 +67,7 @@ a:hover { text-decoration-thickness: 2px; }
 .android-only { display: inline-block; margin-top: 18px; font-size: 14px; color: var(--muted); background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 4px 14px; }
 
 /* ---- sections ---- */
-section { padding: 48px 0; border-top: 1px solid var(--border); }
+section { padding: 48px 0; border-top: 1px solid var(--border); scroll-margin-top: 90px; }
 h2 { font-size: clamp(26px, 4vw, 34px); line-height: 1.2; margin: 0 0 8px; }
 h3 { font-size: 21px; margin: 0 0 6px; line-height: 1.3; }
 .section-lead { color: var(--muted); margin: 0 0 28px; max-width: 720px; }
