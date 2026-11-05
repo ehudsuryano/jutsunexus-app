@@ -64,6 +64,9 @@ a:hover { text-decoration-thickness: 2px; }
 .btn.secondary { background: var(--surface-2); color: var(--text); border: 1px solid var(--border); font-size: 16px; padding: 12px 20px; }
 .meta { color: var(--muted); font-size: 14px; margin-top: 12px; }
 .meta span + span::before { content: " · "; }
+.dl-tip { color: var(--muted); font-size: 14px; margin: 10px auto 0; max-width: 540px; }
+.dl-tip a { color: inherit; }
+.dl-tip b { white-space: nowrap; }
 .android-only { display: inline-block; margin-top: 18px; font-size: 14px; color: var(--muted); background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 4px 14px; }
 
 /* ---- sections ---- */

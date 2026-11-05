@@ -25,7 +25,11 @@
     if (id) {
       selectTab(id);
       document.getElementById('install').scrollIntoView();
+      return;
     }
+    // FAQ deep links such as #download-stuck open that question.
+    var el = location.hash.length > 1 && document.getElementById(location.hash.slice(1));
+    if (el && el.tagName === 'DETAILS') el.open = true;
   }
   window.addEventListener('hashchange', fromHash);
   fromHash();
