@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>JutsuNexus – הורדה והתקנה</title>
-<meta name="description" content="JutsuNexus – הספרייה האישית שלך לטכניקות אומנויות לחימה. סרטונים, הערות ותוכניות לימוד בטלפון, בלי חשבון ובלי ענן. הורדה ומדריך התקנה לאנדרואיד.">
+<title>JutsuNexus – ספריית טכניקות לאומנויות לחימה</title>
+<meta name="description" content="JutsuNexus – הספרייה האישית שלך לטכניקות אומנויות לחימה. סרטונים, הערות ותוכניות לימוד בטלפון, בלי חשבון ובלי ענן. בחינם ב-Google Play.">
 <meta property="og:title" content="JutsuNexus – ספריית הטכניקות שלך">
-<meta property="og:description" content="סרטונים, הערות ותוכניות לימוד של אומנויות לחימה – בטלפון, בלי חשבון. הורדה לאנדרואיד.">
+<meta property="og:description" content="סרטונים, הערות ותוכניות לימוד של אומנויות לחימה – בטלפון, בלי חשבון. בחינם ב-Google Play.">
 <meta property="og:image" content="https://ehudsuryano.github.io/jutsunexus-app/img/icon-256.png">
 <meta property="og:locale" content="he_IL">
 <link rel="icon" href="img/favicon.png">
@@ -39,6 +39,8 @@
   <img class="icon" src="img/icon-256.png" alt="הסמל של JutsuNexus">
   <h1>JutsuNexus</h1>
   <p class="lead">הספרייה האישית שלך לטכניקות אומנויות לחימה. כל הסרטונים, ההערות ותוכניות הלימוד שלך במקום אחד, בטלפון. בלי חשבון ובלי ענן.</p>
+  <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.jutsunexus.app&amp;hl=iw"><img src="img/play/get-it-on-google-play-he.png" alt="כעת ב-Google Play" width="646" height="250"></a>
+  <div class="meta"><span>חינם</span><span>אנדרואיד 10 ומעלה</span></div>
   <div class="android-only">יש לכם אייפון? <a href="https://ehudsuryano.github.io/jutsunexus-webapp/">JutsuNexus בדפדפן</a> (גרסת ניסיון) · <a href="#iphone">מה ההבדל?</a></div>
 </div>
 
@@ -143,170 +145,30 @@
 <section id="install">
   <div class="wrap">
     <h2>איך מתקינים</h2>
-    <p class="section-lead">האפליקציה לא נמצאת בחנות Google Play, ולכן אנדרואיד מבקש פעם אחת אישור להתקין אותה. התהליך לוקח בערך דקה. בחרו מאיפה אתם מתקינים:</p>
-
-    <div class="tabs" role="tablist">
-      <button role="tab" aria-selected="true" aria-controls="tab-browser" id="t-browser">מהאתר (דפדפן)</button>
-      <button role="tab" aria-selected="false" aria-controls="tab-whatsapp" id="t-whatsapp">קובץ שהגיע בוואטסאפ</button>
-      <button role="tab" aria-selected="false" aria-controls="tab-samsung" id="t-samsung">טלפון סמסונג</button>
-    </div>
-
-    <!-- browser -->
-    <div class="tabpanel" id="tab-browser" role="tabpanel" aria-labelledby="t-browser">
-      <ol class="steps">
-        <li class="step">
-          <div class="txt">
-            <h3>מורידים את הקובץ</h3>
-            <p>פתחו את האתר הזה <b>בטלפון</b> (ב-Chrome) ולחצו על <b>הורדה לאנדרואיד</b>.</p>
-          </div>
-          <div><div class="shot"><img src="img/install/01-site.webp" alt="האתר בטלפון עם כפתור ההורדה" loading="lazy"></div></div>
-        </li>
-        <li class="step">
-          <div class="txt">
-            <h3>מאשרים את ההורדה</h3>
-            <p>Chrome מציג <b>"הקובץ עלול להזיק"</b>. ההודעה הזאת מופיעה לכל קובץ התקנה שלא מגיע מהחנות. לחצו <b>להוריד בכל זאת</b>.</p>
-          </div>
-          <div><div class="shot"><img src="img/install/02-download-warning.webp" alt="אזהרת ההורדה של Chrome" loading="lazy"></div></div>
-        </li>
-        <li class="step">
-          <div class="txt">
-            <h3>פותחים את הקובץ</h3>
-            <p>בסוף ההורדה מופיע <b>"קובץ אחד הורד"</b> – לחצו <b>פתיחה</b>. אם פספסתם את ההודעה – הקובץ נמצא ב-Chrome תחת <b>⋮ ← הורדות</b>, או באפליקציית הקבצים בתיקיית <b>הורדות</b>.</p>
-          </div>
-          <div><div class="shot"><img src="img/install/03-open.webp" alt="ההורדה הסתיימה – פתיחה" loading="lazy"></div></div>
-        </li>
-        <li class="step">
-          <div class="txt">
-            <h3>נותנים ל-Chrome הרשאה להתקין</h3>
-            <p>בפעם הראשונה אנדרואיד חוסם את ההתקנה: <b>"לצורכי אבטחה, הטלפון שלך חסום להתקנת אפליקציות לא מוכרות מהמקור הזה"</b>. לחצו <b>הגדרות</b>.</p>
-          </div>
-          <div><div class="shot"><img src="img/install/04-blocked.webp" alt="הודעת החסימה עם כפתור הגדרות" loading="lazy"></div></div>
-        </li>
-        <li class="step">
-          <div class="txt">
-            <h3>מפעילים "לאפשר מהמקור הזה"</h3>
-            <p>הפעילו את המתג <b>לאפשר מהמקור הזה</b>. בטלפונים חדשים חלון ההתקנה קופץ מיד; אם לא – לחצו על חץ החזרה.</p>
-            <p>ההרשאה ניתנת ל-Chrome בלבד, ואפשר לכבות אותה שוב אחרי ההתקנה.</p>
-          </div>
-          <div><div class="shot"><img src="img/install/05-allow.webp" alt="מתג התרה מהמקור הזה" loading="lazy"></div></div>
-        </li>
-        <li class="step">
-          <div class="txt">
-            <h3>מתקינים</h3>
-            <p>מופיע <b>"האם ברצונך להתקין אפליקציה זו?"</b> – לחצו <b>התקנה</b>.</p>
-          </div>
-          <div><div class="shot"><img src="img/install/06-install.webp" alt="חלון ההתקנה" loading="lazy"></div></div>
-        </li>
-        <li class="step">
-          <div class="txt">
-            <h3>אם Google Play Protect שואל</h3>
-            <p>בטלפון עם חשבון Google מופיע לרוב חלון של Play Protect: <b>"מומלץ לסרוק את האפליקציה"</b> (App scan recommended). זה קורה לכל אפליקציה שלא מגיעה מהחנות.</p>
-            <p>לחצו <b>פרטים נוספים</b> (More details), ובאפשרות שנפתחת לחצו <b>להתקין בלי סריקה</b> (Install without scanning). ההתקנה ממשיכה מיד.</p>
-            <p><b>לא</b> ללחוץ על הכפתור הכחול התחתון, <b>לא להתקין</b> (Don't install app) – הוא מבטל את ההתקנה.</p>
-          </div>
-          <div><div class="shot"><img src="img/install/s23/play-protect.webp" alt="חלון Play Protect עם אפשרויות הסריקה" loading="lazy"></div><div class="shot-note">צילום מסמסונג באנגלית</div></div>
-        </li>
-        <li class="step">
-          <div class="txt">
-            <h3>זהו – פותחים</h3>
-            <p><b>"האפליקציה הותקנה."</b> – לחצו <b>פתיחה</b>. JutsuNexus מופיע עכשיו גם במסך האפליקציות.</p>
-          </div>
-          <div><div class="shot"><img src="img/install/08-done.webp" alt="האפליקציה הותקנה" loading="lazy"></div></div>
-        </li>
-      </ol>
-    </div>
-
-    <!-- whatsapp -->
-    <div class="tabpanel" id="tab-whatsapp" role="tabpanel" aria-labelledby="t-whatsapp" hidden>
-      <div class="callout">
-        <p><strong>עדיף לשלוח קישור.</strong> אם אתם מעבירים את האפליקציה לחבר, שלחו לו בוואטסאפ את הקישור לאתר הזה ולא את הקובץ: הקישור תמיד מוריד את הגרסה העדכנית, והחבר מקבל גם את ההוראות. אחרי הלחיצה על הקישור ממשיכים לפי הלשונית <a href="#install" data-tab="t-browser">מהאתר</a>.</p>
-      </div>
-      <p class="shot-note" style="text-align:start">הצילומים בלשונית הזו מטלפון סמסונג שמוגדר לאנגלית. בטלפון בעברית הכפתורים נמצאים באותו מקום.</p>
-      <ol class="steps">
-        <li class="step">
-          <div class="txt">
-            <h3>לוחצים על הקובץ בצ'אט</h3>
-            <p>הקובץ מגיע כמסמך ששמו מתחיל ב-<b>JutsuNexus</b> ונגמר ב-<b>.apk</b>. אם יש לידו חץ הורדה, לחצו עליו קודם ולחכו שההורדה תסתיים. אחר כך לחצו על הקובץ עצמו.</p>
-          </div>
-          <div><div class="shot"><img src="img/install/s23/wa-01-chat.webp" alt="קובץ ההתקנה בצ'אט בוואטסאפ" loading="lazy"></div></div>
-        </li>
-        <li class="step">
-          <div class="txt">
-            <h3>מאשרים את האזהרה של וואטסאפ</h3>
-            <p>וואטסאפ מציג <b>"הקובץ הזה עלול להזיק"</b> (This file may be harmful). הכפתור הירוק הגדול הוא <b>ביטול</b> – לא אותו. לחצו על <b>פתיחת הקובץ</b> (Open file) שמתחתיו.</p>
-          </div>
-          <div><div class="shot"><img src="img/install/s23/wa-02-harmful.webp" alt="אזהרת וואטסאפ עם הכפתור לפתיחת הקובץ" loading="lazy"></div></div>
-        </li>
-        <li class="step">
-          <div class="txt">
-            <h3>נותנים לוואטסאפ הרשאה להתקין</h3>
-            <p>בפעם הראשונה הטלפון חוסם את ההתקנה: <b>"נדרשת הרשאה"</b> (Permission required) עבור WhatsApp. לחצו <b>הגדרות</b> (Settings).</p>
-          </div>
-          <div><div class="shot"><img src="img/install/s23/wa-03-permission.webp" alt="הודעת החסימה עם כפתור הגדרות" loading="lazy"></div></div>
-        </li>
-        <li class="step">
-          <div class="txt">
-            <h3>מפעילים את ההרשאה</h3>
-            <p>במסך <b>התקנת אפליקציות לא ידועות</b> (Install unknown apps) של WhatsApp הפעילו את המתג (בסמסונג: Allow permission, בטלפונים אחרים: לאפשר מהמקור הזה). חלון ההתקנה קופץ מיד.</p>
-          </div>
-          <div><div class="shot"><img src="img/install/s23/wa-04-allow.webp" alt="מתג ההרשאה של וואטסאפ" loading="lazy"></div></div>
-        </li>
-        <li class="step">
-          <div class="txt">
-            <h3>מתקינים</h3>
-            <p>מופיע <b>"להתקין את האפליקציה?"</b> (Install this app?) – לחצו <b>התקנה</b> (Install). אם Play Protect שואל – <b>פרטים נוספים ← להתקין בלי סריקה</b>, כמו בשלב 7 בלשונית <a href="#install" data-tab="t-browser">מהאתר</a>.</p>
-          </div>
-          <div><div class="shot"><img src="img/install/s23/wa-05-install.webp" alt="חלון ההתקנה" loading="lazy"></div></div>
-        </li>
-        <li class="step">
-          <div class="txt">
-            <h3>זהו – פותחים</h3>
-            <p><b>"האפליקציה הותקנה"</b> (App installed) – לחצו <b>פתיחה</b> (Open).</p>
-            <p>אם וואטסאפ אומר שאין אפשרות לפתוח את הקובץ: פתחו את אפליקציית <b>הקבצים</b> (ובסמסונג: <b>הקבצים שלי</b>), חפשו את הקובץ של JutsuNexus ולחצו עליו. במקרה הזה ההרשאה תתבקש עבור אפליקציית הקבצים במקום עבור וואטסאפ.</p>
-          </div>
-          <div><div class="shot"><img src="img/install/s23/wa-06-done.webp" alt="האפליקציה הותקנה" loading="lazy"></div></div>
-        </li>
-      </ol>
-      <div class="callout">
-        <p><strong>אחרי ההתקנה</strong> כדאי לכבות שוב את ההרשאה של וואטסאפ, כדי שקבצים שמגיעים בצ'אטים אחרים לא יוכלו להתקין אפליקציות. הדרך: <span class="path">הגדרות <i>←</i> אפליקציות <i>←</i> גישה מיוחדת <i>←</i> התקנת אפליקציות לא מוכרות <i>←</i> WhatsApp</span></p>
-      </div>
-    </div>
-
-    <!-- samsung -->
-    <div class="tabpanel" id="tab-samsung" role="tabpanel" aria-labelledby="t-samsung" hidden>
-      <div class="callout warn">
-        <p><strong>בטלפוני סמסונג חדשים ההתקנה נחסמת לגמרי</strong> בגלל תכונה בשם <b>חוסם אוטומטי</b> (Auto Blocker). היא מופעלת כברירת מחדל במכשירים שיצאו עם One UI 6.1.1 ומעלה (למשל סדרת S24 ומכשירים חדשים יותר). אם ניסיתם להתקין ושום דבר לא קרה, או שהופיעה הודעה שההתקנה נחסמה – זו הסיבה.</p>
-      </div>
-      <ol class="steps">
-        <li class="step">
-          <div class="txt">
-            <h3>מוצאים את החוסם האוטומטי</h3>
-            <p><span class="path">הגדרות <i>←</i> אבטחה ופרטיות</span> (Security and privacy). גוללים למטה עד <b>חוסם אוטומטי</b> (Auto Blocker). אפשר לכבות אותו ישירות מהמתג שלידו.</p>
-          </div>
-          <div><div class="shot"><img src="img/install/s23/samsung-01-security.webp" alt="מסך אבטחה ופרטיות עם החוסם האוטומטי" loading="lazy"></div><div class="shot-note">צילום מסמסונג באנגלית</div></div>
-        </li>
-        <li class="step">
-          <div class="txt">
-            <h3>מכבים אותו</h3>
-            <p>במסך של החוסם האוטומטי המתג העליון צריך להיות על <b>כבוי</b> (Off). הטלפון יבקש טביעת אצבע או קוד. בגרסאות חדשות של One UI אפשר לבחור לכבות לזמן מוגבל, והחוסם יחזור לפעול לבד אחרי ההתקנה.</p>
-          </div>
-          <div><div class="shot"><img src="img/install/s23/samsung-02-autoblocker.webp" alt="מסך החוסם האוטומטי כבוי" loading="lazy"></div><div class="shot-note">צילום מסמסונג באנגלית</div></div>
-        </li>
-        <li class="step no-shot">
-          <div class="txt">
-            <h3>ממשיכים כרגיל</h3>
-            <p>מכאן ההתקנה זהה ללשונית <a href="#install" data-tab="t-browser">מהאתר</a> או <a href="#install" data-tab="t-whatsapp">וואטסאפ</a>. בסמסונג, הדפדפן המובנה הוא <b>Samsung Internet</b>, והקבצים נמצאים באפליקציה <b>הקבצים שלי</b> בתיקיה <b>הורדות</b>.</p>
-            <p>הדרך לרשימת ההרשאות בסמסונג: <span class="path">הגדרות <i>←</i> אפליקציות <i>←</i> ⋮ (למעלה) <i>←</i> גישה מיוחדת <i>←</i> התקנת אפליקציות לא ידועות</span></p>
-          </div>
-        </li>
-        <li class="step no-shot">
-          <div class="txt">
-            <h3>מחזירים את החוסם (מומלץ)</h3>
-            <p>אחרי ההתקנה אפשר להפעיל שוב את החוסם האוטומטי. האפליקציה תמשיך לעבוד. כדי להתקין עדכון בעתיד צריך לכבות אותו שוב לרגע.</p>
-          </div>
-        </li>
-      </ol>
-      <p class="shot-note" style="text-align:start">שמות התפריטים בסמסונג משתנים מעט בין גרסאות One UI.</p>
+    <p class="section-lead">JutsuNexus זמינה בחינם ב-Google Play, לאנדרואיד 10 ומעלה.</p>
+    <ol class="steps">
+      <li class="step no-shot">
+        <div class="txt">
+          <h3>פותחים אותה ב-Google Play</h3>
+          <p>בטלפון האנדרואיד לוחצים על <a href="https://play.google.com/store/apps/details?id=com.jutsunexus.app&amp;hl=iw">כעת ב-Google Play</a>, או מחפשים <b>JutsuNexus</b> בחנות Play.</p>
+        </div>
+      </li>
+      <li class="step no-shot">
+        <div class="txt">
+          <h3>לוחצים התקנה</h3>
+          <p>מכאן והלאה Google Play מעדכנת את האפליקציה, כמו כל אפליקציה אחרת.</p>
+        </div>
+      </li>
+      <li class="step no-shot">
+        <div class="txt">
+          <h3>פותחים את JutsuNexus</h3>
+          <p>בחלק מהמקומות (האיחוד האירופי, בריטניה וכמה מדינות בארה"ב) האפליקציה שואלת קודם על פרסומות מותאמות אישית. אפשר לשנות את הבחירה אחר כך ב<span class="path">פרופיל <i>←</i> אפשרויות פרטיות למודעות</span>.</p>
+        </div>
+      </li>
+    </ol>
+    <div class="callout warn" id="from-site">
+      <p><strong>התקנתם בעבר את JutsuNexus מהאתר הזה?</strong> קודם מגבים: <span class="path">פרופיל <i>←</i> ייבוא / ייצוא <i>←</i> ייצוא <i>←</i> כל הספרייה</span>, ושומרים את קובץ ה-ZIP במקום בטוח – ב-Google Drive, או שולחים אותו לעצמכם בוואטסאפ. אחר כך מתקינים מ-Google Play.</p>
+      <p>אם Google Play לא מצליחה להתקין כי בטלפון כבר יש גרסה אחרת, מוחקים את JutsuNexus הישנה, מתקינים מ-Google Play ומייבאים את קובץ ה-ZIP: <span class="path">פרופיל <i>←</i> ייבוא / ייצוא <i>←</i> ייבוא</span>. מחיקת האפליקציה מוחקת את הספרייה שבתוכה, ולכן מגבים קודם.</p>
     </div>
   </div>
 </section>
@@ -315,10 +177,9 @@
 <section id="update">
   <div class="wrap">
     <h2>עדכון לגרסה חדשה</h2>
-    <p class="section-lead">אין עדכונים אוטומטיים. כשיוצאת גרסה חדשה, מורידים אותה מהאתר ומתקינים בדיוק כמו בפעם הראשונה – מעל הגרסה הקיימת. במקום "להתקין" יופיע <b>"לעדכן את האפליקציה?"</b> (Update this app?) – לחצו <b>עדכון</b>. כל הטכניקות, הסרטונים וההערות נשמרים.</p>
-    <div class="shot update-shot"><img src="img/install/s23/update-dialog.webp" alt="חלון עדכון האפליקציה" loading="lazy"></div>
+    <p class="section-lead">Google Play מעדכנת את JutsuNexus לבד, כמו כל אפליקציה אחרת. כדי לעדכן מיד, פותחים את JutsuNexus בחנות Play ולוחצים <b>עדכון</b>. כל הטכניקות, הסרטונים וההערות נשמרים.</p>
     <div class="callout danger">
-      <p><strong>אל תמחקו את האפליקציה כדי לעדכן.</strong> מחיקת האפליקציה מוחקת את כל הספרייה שבתוכה – הסרטונים, ההערות והכול. מתקינים את הגרסה החדשה מעל הישנה, בלי למחוק.</p>
+      <p><strong>אל תמחקו את האפליקציה.</strong> מחיקת האפליקציה מוחקת את כל הספרייה שבתוכה – הסרטונים, ההערות והכול. עדכון אף פעם לא מחייב מחיקה.</p>
     </div>
     <div class="callout">
       <p><strong>גיבוי.</strong> הכול נשמר רק בטלפון. מדי פעם כדאי לייצא גיבוי: <span class="path">פרופיל <i>←</i> ייבוא / ייצוא <i>←</i> ייצוא <i>←</i> כל הספרייה</span> ולשמור את קובץ ה-ZIP ב-Google Drive או במחשב. אם מחליפים טלפון, מייבאים את הקובץ במכשיר החדש.</p>
@@ -730,9 +591,9 @@
 <section id="faq">
   <div class="wrap">
     <h2>שאלות נפוצות</h2>
-    <details>
-      <summary>האם זה בטוח? למה הטלפון מזהיר?</summary>
-      <p>האזהרות מופיעות לכל אפליקציה שמותקנת מחוץ לחנות Google Play, לא רק לזו. האפליקציה לא דורשת חשבון, והטכניקות והסרטונים שלכם נשלחים רק לאן שאתם בוחרים.</p>
+    <details id="free">
+      <summary>זה בחינם?</summary>
+      <p>כן. JutsuNexus חינמית עם פרסומות: באנר בתחתית המסך, ומדי פעם פרסומת במסך מלא כשסוגרים טכניקה. רכישה חד־פעמית ב<b>פרופיל ← הסרת פרסומות</b> מסירה את כולן, בכל טלפון עם אותו חשבון Google. האפליקציה לא דורשת חשבון, והטכניקות והסרטונים שלכם נשלחים רק לאן שאתם בוחרים.</p>
     </details>
     <details id="iphone">
       <summary>יש גרסה לאייפון?</summary>
@@ -741,17 +602,13 @@
       <p>הספרייה נשמרת רק בדפדפן של אותו טלפון, אז כדאי לשמור מדי פעם גיבוי: <b>עוד ← גיבוי הספרייה</b>.</p>
     </details>
     <details>
-      <summary>ההתקנה נכשלת עם ההודעה "האפליקציה לא הותקנה"</summary>
-      <p>זה קורה כשמותקנת בטלפון גרסה ישנה של JutsuNexus שנחתמה אחרת (למשל גרסת ניסיון שקיבלתם ישירות). פתחו את האפליקציה הישנה, ייצאו את כל הספרייה (<b>Profile ← Import / Export ← Export ← Entire Library</b>), שמרו את הקובץ, מחקו את האפליקציה הישנה, התקינו את החדשה וייבאו את הקובץ.</p>
-      <p>סיבות נוספות: אין מספיק מקום פנוי (צריך לפחות 300MB: הקובץ שהורד ועוד האפליקציה), או שההורדה לא הושלמה – נסו להוריד שוב.</p>
-    </details>
-    <details>
-      <summary>לחצתי על הקובץ ושום דבר לא קרה</summary>
-      <p>בסמסונג – כבו את <a href="#install" data-tab="t-samsung">החוסם האוטומטי</a>. בכל טלפון אחר – פתחו את הקובץ מאפליקציית הקבצים, בתיקיית <b>הורדות</b>.</p>
+      <summary>Google Play לא מצליחה להתקין את JutsuNexus</summary>
+      <p>זה קורה כשבטלפון עדיין מותקנת JutsuNexus שהותקנה בעבר מהאתר הזה. גבו את הספרייה, מחקו את האפליקציה הישנה והתקינו מ-Google Play – <a href="#from-site">ראו את השלבים</a>.</p>
+      <p>הסיבה הנפוצה השנייה היא מקום פנוי: האפליקציה צריכה כ-125MB, ועוד מקום לסרטונים.</p>
     </details>
     <details>
       <summary>איך יודעים שיש גרסה חדשה?</summary>
-      <p>מספר הגרסה האחרונה כתוב מתחת לכפתור ההורדה בראש הדף. את הגרסה המותקנת אצלכם רואים בלשונית <b>פרופיל</b> באפליקציה.</p>
+      <p>Google Play מעדכנת את האפליקציה לבד. את הגרסה המותקנת אצלכם רואים בלשונית <b>פרופיל</b> באפליקציה.</p>
     </details>
     <details>
       <summary>כמה מקום זה תופס?</summary>

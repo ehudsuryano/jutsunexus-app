@@ -62,6 +62,8 @@ a:hover { text-decoration-thickness: 2px; }
 .btn:hover { filter: brightness(1.08); }
 .btn svg { width: 22px; height: 22px; flex: none; }
 .btn.secondary { background: var(--surface-2); color: var(--text); border: 1px solid var(--border); font-size: 16px; padding: 12px 20px; }
+.play-badge { display: inline-block; line-height: 0; }
+.play-badge img { height: 80px; width: auto; }
 .meta { color: var(--muted); font-size: 14px; margin-top: 12px; }
 .meta span + span::before { content: " · "; }
 .dl-tip { color: var(--muted); font-size: 14px; margin: 10px auto 0; max-width: 540px; }
